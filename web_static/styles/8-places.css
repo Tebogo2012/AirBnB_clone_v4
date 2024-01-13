@@ -1,4 +1,4 @@
-.places {
+.places{
 
     display: flex;
 
@@ -20,11 +20,11 @@
 
 
 
-article {
+article { 
 
     width: 390px;
 
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 
     margin: 20px 20px 20px 20px;
 
@@ -32,15 +32,25 @@ article {
 
     border-radius: 4px;
 
+
+
     position: relative;
 
     z-index: -1;
 
 }
 
+.information {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
 
 
-article>h2 {
+
+article h2 {
 
     font-size: 30px;
 
@@ -53,6 +63,8 @@ article>h2 {
     margin: 0;
 
     padding-bottom: 10%
+
+    
 
 }
 
@@ -80,7 +92,7 @@ article>h2 {
 
     align-items: center;
 
-    top: 2%;
+    top: 5%;
 
     right: 7%;
 
@@ -98,11 +110,11 @@ article>h2 {
 
     display: flex;
 
-    flex-wrap: wrap;
-
     justify-content: center;
 
 }
+
+
 
 
 
@@ -122,15 +134,13 @@ article>h2 {
 
 }
 
-
-
 .max_guest {
 
     background-image: url(../images/icon_group.png);
 
+
+
 }
-
-
 
 .number_rooms {
 
@@ -138,11 +148,11 @@ article>h2 {
 
 }
 
-
-
 .number_bathrooms {
 
     background-image: url(../images/icon_bath.png);
+
+    
 
 }
 
@@ -151,120 +161,6 @@ article>h2 {
 .user {
 
     margin: 10px auto;
-
-}
-
-
-
-.places .amenities h2 {
-
-    padding: 5% 0 5% 0;
-
-    padding-bottom: 2%;
-
-    border-bottom: 1px solid #DDDDDD;
-
-}
-
-
-
-.places .amenities>ul {
-
-    list-style: none;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    padding: 0;
-
-}
-
-
-
-.places .amenities>ul li {
-
-    background-size: 20px;
-
-    padding-left: 25px;
-
-    padding-bottom: 25px;
-
-    background-repeat: no-repeat;
-
-    line-height: 25px;
-
-}
-
-
-
-.tv {
-
-    background-image: url(../images/icon_tv.png);
-
-}
-
-
-
-.wifi {
-
-    background-image: url(../images/icon_wifi.png);
-
-}
-
-
-
-.pets {
-
-    background-image: url(../images/icon_pets.png);
-
-}
-
-
-
-.reviews {
-
-    margin-bottom: 5%;
-
-}
-
-
-
-.places .reviews>ul {
-
-    list-style: none;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    padding: 0;
-
-}
-
-
-
-.places .reviews ul li h3 {
-
-    margin-top: 0;
-
-    padding-bottom: 0px;
-
-    margin-bottom: 10px;
-
-}
-
-
-
-.places .reviews ul li p {
-
-    padding-bottom: 5%;
-
-    margin-top: 0px;
 
 }
 
